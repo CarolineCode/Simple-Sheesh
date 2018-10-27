@@ -1,26 +1,52 @@
-header {
-  background-color:#FFC7D1;opacity:0.8;
-  border-bottom:5px solid #000;
-  width:100%;
+.jumbotron{
+  width:50%;
+  display:flex;
+  align-items: center;
+  background-image:url("images/hrock.jpg");
+  background-size:cover;
+  height:500px;
 
 }
-body{
-  background-color:#fff; margin:0 auto;
-  text-align:center;position:relative;
+.b{
+  width:50%;
+  align-items: top;
+display:inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+position:absolute;
+margin-left:320px;
+margin-top:-289px;
+  background-image:url("images/gigi.jpg");
+  background-size:cover;
+  height:500px;
+
 }
 
-.top h1{
-  text-align:center;
-    font-family:"Abril Fatface";
-    letter-spacing: 1.5px;
-     font-size:100px;margin-top:.5px;
-     margin-bottom:.5px;
-     color:#FF3EF6;
+header{
+  font-family:"Abril Fatface";
+
+}
+h1 a{
+  color:#000;
+}
+h1 a:hover{
+  text-decoration:underline;
+  color:#FF3EF6;
 }
 
-img {width:600px;
+h1 a:active{
+  color:purple;
 }
 
-
-
-li {display:inline;}
+section{
+  font-family:"Abril Fatface";
+  color: #fff;
+}
+.jumbotron h2{
+  font-family:"Abril Fatface";
+  color: #fff;
+}
+.jumbotron h3{
+  font-family:"Abril Fatface";
+  color: #fff;
+}

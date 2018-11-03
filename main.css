@@ -1,52 +1,84 @@
-.jumbotron{
-  width:50%;
-  display:flex;
-  align-items: center;
-  background-image:url("images/hrock.jpg");
-  background-size:cover;
-  height:500px;
-
-}
-.b{
-  width:50%;
-  align-items: top;
-display:inline-flex;
-flex-wrap: wrap;
-justify-content: center;
-position:absolute;
-margin-left:320px;
-margin-top:-289px;
-  background-image:url("images/gigi.jpg");
-  background-size:cover;
-  height:500px;
-
-}
-
 header{
-  font-family:"Abril Fatface";
+  font-family:"Passion One"; font-size:100px;
 
 }
-h1 a{
-  color:#000;
-}
-h1 a:hover{
-  text-decoration:underline;
-  color:#FF3EF6;
+
+header a{
+  color:black;
+  text-shadow:2px 2px #FBFF00;
 }
 
-h1 a:active{
-  color:purple;
+header a:hover{
+  color:#FBFF00;text-decoration:none;
+  text-shadow: 2px 2px black;
 }
 
-section{
-  font-family:"Abril Fatface";
-  color: #fff;
+img{position:relative;
+  margin-left:200px;
+  width:1000px;
+  filter:grayscale(100%);
 }
-.jumbotron h2{
-  font-family:"Abril Fatface";
-  color: #fff;
+
+img:hover{ filter:grayscale(0%);
 }
-.jumbotron h3{
-  font-family:"Abril Fatface";
-  color: #fff;
+
+.harry img{
+  border:23px solid #25CBD1;
+  margin-bottom:10px;
 }
+
+
+.text-block a{
+  font-family:"Oswald";
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: #FF2B98;
+}
+ .text-block a:hover{
+   font-family:"Oswald";
+   position:absolute;
+   bottom:20px;
+   right:20px;
+   background-color: black;
+   color: #FBFF00;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .hidden-text{
+   position:absolute;
+   font-family:"Oswald";
+   top:200px;
+   left:10%;
+   background-color:#000;
+   color:#25CBD1;
+   padding-left:10px;
+   padding-right:10px;
+ }
+footer{
+  background-color:#FF2B98;
+  
+
+}
+.navbar a{
+  text-decoration:none;
+  font-size:50px;
+  font-family:"Passion One";
+  color:black;
+
+}
+.navbar a:hover{
+  text-decoration:none;
+  color:#FBFF00;
+}
+.navbar a:active{
+  color:#25CBD1;
+}
+ .navbar li{
+   display:inline;
+   list-style-type: none;
+   margin:0 30px;
+ }

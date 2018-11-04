@@ -76,12 +76,13 @@ img:hover{ filter:grayscale(0%);
    padding-left:1%;
    padding-right:1%;
  }
+
 footer{
   background-color:#FF2B98;
   position:sticky;
-  left:0%;
-  right:0%;
-  bottom:0%;
+  left:0;
+  right:0;
+  bottom:0;
 
 
 

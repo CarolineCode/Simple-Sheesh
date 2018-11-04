@@ -13,26 +13,26 @@ img { max-width: 100%; }
 html { font-size:100%; }
 @media (min-width: 640px) { body {font-size:1rem;} }
 @media (min-width:960px) { body {font-size:1.2rem;} }
-@media (min-width:1100px) { body {font-size:1.5rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
 
 header{
-  font-family:"Passion One"; font-size:100px;
+  font-family:"Passion One"; font-size:10rem;
 
 }
 
 header a{
   color:black;
-  text-shadow:2px 2px #FBFF00;
+  text-shadow:.2rem .2rem #FBFF00;
 }
 
 header a:hover{
   color:#FBFF00;text-decoration:none;
-  text-shadow: 2px 2px black;
+  text-shadow: .2rem .2rem black;
 }
 
 img{position:relative;
-  margin-left:200px;
-  width:1000px;
+  margin-left:15%;
+  width:75%;
   filter:grayscale(100%);
 }
 
@@ -41,48 +41,53 @@ img:hover{ filter:grayscale(0%);
 
 .harry img{
   border:23px solid #25CBD1;
-  margin-bottom:10px;
+  margin-bottom:5%;
 }
 
 
 .text-block a{
   font-family:"Oswald";
   position:absolute;
-  bottom:20px;
-  right:70px;
-  padding-left: 20px;
-  padding-right: 20px;
+  bottom:5%;
+  right:5%;
+  padding-left: 1%;
+  padding-right: 1%;
   background-color: black;
   color: #FF2B98;
 }
  .text-block a:hover{
    font-family:"Oswald";
    position:absolute;
-   bottom:20px;
-   right:70px;
+   bottom:5%;
+   right:5%;
    background-color: black;
    color: #FBFF00;
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 1%;
+   padding-right: 1%;
  }
  .hidden-text{
    position:absolute;
    font-family:"Oswald";
-   top:200px;
+   top:28%;
    left:10%;
    background-color:#000;
    color:#25CBD1;
-   padding-left:10px;
-   padding-right:10px;
+   padding-left:1%;
+   padding-right:1%;
  }
 footer{
   background-color:#FF2B98;
+  position:sticky;
+  left:0%;
+  right:0%;
+  bottom:0%;
+
 
 
 }
 .navbar a{
   text-decoration:none;
-  font-size:50px;
+  font-size:5.5rem;
   font-family:"Passion One";
   color:black;
 
@@ -97,5 +102,5 @@ footer{
  .navbar li{
    display:inline;
    list-style-type: none;
-   margin:0 30px;
+   margin:0 2.5%;
  }

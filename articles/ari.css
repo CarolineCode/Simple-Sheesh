@@ -1,0 +1,98 @@
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; }
+html { font-size:100%; }
+
+header{
+  font-family:"Passion One"; font-size:7.2rem;
+
+}
+
+header a{
+  color:#FBFF00;
+  text-shadow:.2rem .2rem black;
+}
+
+header a:hover{
+  color:black;text-decoration:none;
+  text-shadow: .2rem .2rem #FBFF00;
+  font-size:11rem;
+}
+
+.title {
+  font-family:"Oswald";
+  font-size:5rem;
+  background-color:black;
+  color:#FF2B98;
+  text-align:center;
+}
+img{
+  width:50%;
+  float:right;
+  margin-top:4%;
+  display:inline;
+
+}
+
+.sweet img{
+  border:2.1rem solid #FBFF00;
+  display:inline;
+  margin-bottom:30px;
+}
+p{
+  font-family:"Oswald";
+font-size: 1.7rem;
+color:black;
+
+}
+p:hover{
+  background-color:#25CBD1;
+  color:black;
+}
+.article {
+
+box-sizing: border-box;
+border:1rem solid #FBFF00;
+width:48%;
+margin-top:4%;
+padding:.5%;
+float:left;display:inline;
+margin-bottom:30px;
+
+}
+
+
+footer{
+  background-color:#FF2B98;
+  position:sticky;
+  margin-top:850px;
+}
+
+.navbar a{
+  text-decoration:none;
+  font-size:5.5rem;
+  font-family:"Passion One";
+  color:black;
+
+}
+.navbar a:hover{
+  text-decoration:none;
+  color:#FBFF00;
+}
+.navbar a:active{
+  color:#25CBD1;
+}
+ .navbar li{
+   display:inline;
+   list-style-type: none;
+   margin:0 2.5%;
+ }

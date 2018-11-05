@@ -55,7 +55,7 @@ img:hover{ filter:grayscale(0%);
 }
 
 
-.col-3 a{
+.text-block a{
   font-family:"Oswald";
   position:absolute;
   bottom:5%;
@@ -65,7 +65,7 @@ img:hover{ filter:grayscale(0%);
   background-color: black;
   color: #FF2B98;
 }
- .col-3 a:hover{
+ .text-block a:hover{
    font-family:"Oswald";
    position:absolute;
    bottom:5%;

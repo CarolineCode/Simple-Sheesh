@@ -63,7 +63,7 @@ img:hover{ filter:grayscale(0%);
   padding-left: 1%;
   padding-right: 1%;
   background-color:black;
-  color: #fff;
+  color: #FF2B98;
 }
  .text-block a:hover{
    font-family:"Oswald";
@@ -82,7 +82,7 @@ img:hover{ filter:grayscale(0%);
    top:28%;
    left:10%;
    background-color:#000;
-   color:#25CBD1;
+   color:#fff;
    padding-left:1%;
    padding-right:1%;
  }

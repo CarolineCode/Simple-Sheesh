@@ -78,13 +78,13 @@ img:hover{ filter:grayscale(0%);
    padding-right: 1%;
  }
 
- .hidden-text{
-   position:absolute;
+ .hidden-text {
    font-family:"Oswald";
+    position:absolute;
    top:28%;
-   left:10%;
-   background-color:#000;
-   color:#fff;
+   left:7%;
+   background-color:black;
+   color:#FFF;
    padding-left:1%;
    padding-right:1%;
  }

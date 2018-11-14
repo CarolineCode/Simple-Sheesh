@@ -44,7 +44,7 @@ img{
   float:right;
   margin-top:4%;
   display:inline;
-  margin-bottom:10%;
+  margin-bottom:1%;
 
 }
 .fleet img{
@@ -53,8 +53,10 @@ img{
 }
 p{
 font-family:"Oswald";
-font-size: 1.7rem;
+font-size: 1.8rem;
 color:black;
+text-indent: 20px;
+background-color:white;
 
 }
 p:hover{
@@ -65,20 +67,90 @@ p:hover{
 
 box-sizing: border-box;
 border:1rem solid #25CBD1;
-width:30%;
+width:36%;
 margin-top:4%;
 padding:.5%;
 float:left;display:inline;
 }
+.songs{
+background-color:#FBFF00;
+color:white;
+  display:inline;
+  float:left;
+  padding:.1%;
+  margin-top:.3%;
+  width:100%;
+  font-size:80px;
+  text-align:center;
+  font-family:"oswald";
+}
+.songs:hover{
+  color:black;
+  text-shadow:2px 1px #FF2B98;
+}
+
+.text {
+  box-sizing: border-box;
+  border:0.1rem solid #FF2B98;
+  display:inline-block;
+  margin-top:1%;
+  width:90%;
+  margin-right:5%;
+  margin-left:5%;
+  padding:.5%;
+  font-size:1.7rem;
 
 
+}
+.text p{
+  background-color:white;
+}
+
+.container{
+display:inline-block;
+background-color:black;
+border:1px dotted #FBFF00;
+}
+#silver{
+  display:inline-block;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:white;
+}
+
+#gypsy{
+  display:inline-block;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:white;
+}
+
+#lace{
+  display:inline-block;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:white;
+}
+#chain{
+  display:inline-block;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:white;
+
+}
+#bleed{
+  display:inline-block;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:white;
+}
 footer{
   background-color:#FF2B98;
-  position:fixed;
-  width:100%;
+  position:sticky;
+  left:0%;
+  right:0%;
   bottom:0%;
-
-
+  margin-top:2%;
 
 }
 

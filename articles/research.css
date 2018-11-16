@@ -29,53 +29,62 @@ header a:hover{
 }
 
 .title {
-  font-family:"Oswald";
-  font-size:8rem;
-  background-color:black;
+  font-family:"Charmonman";
+  font-size:5rem;
+  margin-left:5%;
+
   color:#FF2B98;
-  text-align:center;
-  text-shadow:.1px 5px white;
-}
-img{
-  width:60%;
-  float:right;
-  margin-top:4%;
-  display:inline;
 
 }
-.beatles img{
-  border:2.1rem solid #25CBD1;
-  display:inline;
+.article{
+  box-sizing: border-box;
+  border:.5px solid black;
+  width:90%;
+  margin-left:4%;
+  margin-right:4%;
+  padding:2%;
 }
 p{
-  font-family:"Oswald";
-font-size: 1.7rem;
-color:black;
-
+  text-indent: 20px;
+  font-family:"times";
+  font-size:20px;
 }
-p:hover{
-  background-color:#FBFF00;
+.cite{
+  text-align:center;
+  font-size:22px;
+  font-family:"times";
   color:black;
-}
-.article {
-
-box-sizing: border-box;
-border:1rem solid #25CBD1;
-width:38%;
-margin-top:4%;
-padding:.5%;
-float:left;display:inline;
 
 }
+.works {
+
+  box-sizing: border-box;
+  border:.5px solid black;
+  width:90%;
+  margin-top:4%;
+  margin-left:4%;
+  margin-right:4%;
+  padding:2%;
+  text-align:left;
+
+}
+.works p{
+  text-indent:20px;
+  font-family:"times";
+  font-size:15px;
+}
+
 footer{
   background-color:#FF2B98;
   position:sticky;
   left:0%;
   right:0%;
   bottom:0%;
-  margin-top:800px;
-  text-align:center;
+  margin-top:200px;
+text-align:center;
+
 }
+
 
 .navbar a{
   text-decoration:none;

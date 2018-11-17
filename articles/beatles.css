@@ -67,14 +67,151 @@ padding:.5%;
 float:left;display:inline;
 
 }
+
+.songs{
+background-color:#FBFF00;
+color:white;
+  display:inline;
+  float:left;
+  padding:.1%;
+  margin-top:.3%;
+  width:100%;
+  font-size:80px;
+  text-align:center;
+  font-family:"oswald";
+}
+.songs:hover{
+  color:black;
+  text-shadow:2px 1px #FF2B98;
+}
+.container{
+  box-sizing: border-box;
+  width:50%;
+  border:.2rem solid #FF2B98;
+  padding:1%;
+  background-color:black;
+
+  margin-top:75%;
+  margin-bottom:5%;
+
+
+}
+.container li{
+  list-style-type: none;
+
+}
+
+#love{
+  margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#someone{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2b98;
+}
+#will{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+
+}
+#onlylove{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#see{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#wait{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#road{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2b98;
+}
+#gun{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+
+#julia{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2b98;
+}
+#because{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+
+}
+#guitar{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#life{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#day{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2B98;
+}
+#rigby{
+margin-left:3%;
+  display:inline;
+  font-family:"Oswald";
+  font-size:2rem;
+  color:#FF2b98;
+}
 footer{
   background-color:#FF2B98;
   position:sticky;
-  left:0%;
-  right:0%;
-  bottom:0%;
-  margin-top:800px;
+  left:0;
+  right:0;
+  bottom:0;
   text-align:center;
+
+
+
 }
 
 .navbar a{

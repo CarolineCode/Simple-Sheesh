@@ -67,10 +67,28 @@ padding:.5%;
 float:left;display:inline;
 
 }
+
+.songs{
+background-color:#FBFF00;
+color:white;
+  display:inline;
+  float:left;
+  padding:.1%;
+  margin-top:2%;
+  width:100%;
+  font-size:80px;
+  text-align:center;
+  font-family:"oswald";
+  margin-bottom:5%;
+}
+.songs:hover{
+  color:black;
+  text-shadow:2px 1px #FF2B98;
+}
 .container{
   box-sizing: border-box;
   border:.2rem solid #FF2B98;
-  margin-top:45%;
+  margin-top:55%;
   margin-bottom:5%;
   padding:1%;
   background-color:black;
@@ -78,6 +96,7 @@ float:left;display:inline;
 }
 .container li{
   list-style-type: none;
+  
 }
 #sweet{
   margin-left:1%;

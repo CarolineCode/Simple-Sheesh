@@ -35,26 +35,28 @@ footer{
   left:0;
   right:0;
   bottom:0;
-
-
-
+  text-align:center;
 }
-.navbar a{
-  text-decoration:none;
-  font-size:5.5rem;
-  font-family:"Passion One";
-  color:black;
 
-}
-.navbar a:hover{
-  text-decoration:none;
-  color:#FBFF00;
-}
-.navbar a:active{
-  color:#25CBD1;
-}
- .navbar li{
-   display:inline;
-   list-style-type: none;
-   margin:0 2.5%;
+ .navbar a{
+   text-decoration:none;
+   font-size:5.5rem;
+   font-family:"Passion One";
+   color:black;
+   text-align:center;
  }
+ .navbar a:hover{
+   text-decoration:none;
+   color:#FBFF00;
+   text-align:center;
+ }
+ .navbar a:active{
+   color:#25CBD1;
+   text-align:center;
+ }
+  .navbar li{
+    display:inline;
+    list-style-type: none;
+    margin:0 2.5%;
+    text-align:center;
+  }

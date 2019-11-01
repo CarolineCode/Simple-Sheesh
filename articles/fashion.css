@@ -28,7 +28,16 @@ header a:hover{
   font-size:11rem;
 }
 
-
+.title{
+  font-family:"Oswald";
+  font-size:6rem;
+  text-align:center;
+  background-color:#25CBD1;
+  color:#FBFF00;
+  border-bottom:.3rem solid black;
+  border-top:.3rem solid black;
+  text-shadow:.2rem .2rem #FF2B98;
+}
 
 
 

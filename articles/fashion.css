@@ -38,9 +38,99 @@ header a:hover{
   border-top:.3rem solid black;
   text-shadow:.2rem .2rem #FF2B98;
 }
+.text-block a{
+  font-family:"Oswald";
+  position:absolute;
+  top:103%;
+  left:9%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: black;
+  color: #FF2B98;
+}
+ .text-block a:hover{
+   font-family:"Oswald";
+   position:absolute;
+   top:103%;
+   left:9%;
+   background-color: black;
+   color: #FBFF00;
+   padding-left: 1%;
+   padding-right: 1%;
+ }
+ .block-text a{
+   font-family:"Oswald";
+   position:absolute;
+   top:103%;
+   left:41%;
+   padding-left: 1%;
+   padding-right: 1%;
+   background-color: black;
+   color: #FF2B98;
+ }
+  .block-text a:hover{
+    font-family:"Oswald";
+    position:absolute;
+    top:103%;
+    left:41%;
+    background-color: black;
+    color: #FBFF00;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .mcqueen-text a{
+    font-family:"Oswald";
+    position:absolute;
+    top:103%;
+    left:70.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: #FF2B98;
+  }
+   .mcqueen-text a:hover{
+     font-family:"Oswald";
+     position:absolute;
+     top:103%;
+     left:70.5%;
+     background-color: black;
+     color: #FBFF00;
+     padding-left: 1%;
+     padding-right: 1%;
+   }
+
+img{
+  filter:grayscale(100%);
+  height:50rem;
+  margin-left:1%;
+  margin-right:.5%;
+  margin-top:3%;
+  float:left;display:inline;
+
+}
+img:hover{
+    filter:grayscale(0%);
+}
+.gucci img{
+  box-sizing: border-box;
+  border:1.2rem solid #25CBD1;
+  margin-left:5%;
+
+}
+
+.mario img{
+
+  margin-left:5%;
 
 
+}
 
+.mcqueen img{
+  box-sizing: border-box;
+  border:1.2rem solid #25CBD1;
+  margin-left:5%;
+}
 
 
 
@@ -51,7 +141,7 @@ header a:hover{
      left:0%;
      right:0%;
      bottom:0%;
-     margin-top:300px;
+     margin-top:700px;
      text-align: center;
 
 

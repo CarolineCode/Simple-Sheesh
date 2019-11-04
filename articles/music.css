@@ -67,8 +67,8 @@ img:hover{
 .text-block a{
   font-family:"Oswald";
   position:absolute;
-  top:62%;
-  left:24%;
+  top:67%;
+  left:23%;
   padding-left: 1%;
   padding-right: 1%;
   background-color: black;
@@ -77,8 +77,8 @@ img:hover{
  .text-block a:hover{
    font-family:"Oswald";
    position:absolute;
-   top:62%;
-   left:24%;
+   top:67%;
+   left:23%;
    background-color: black;
    color: #FBFF00;
    padding-left: 1%;
@@ -87,8 +87,8 @@ img:hover{
  .block-text a{
    font-family:"Oswald";
    position:absolute;
-   top:62%;
-   left:51%;
+   top:67%;
+   left:49%;
    padding-left: 1%;
    padding-right: 1%;
    background-color: black;
@@ -97,8 +97,8 @@ img:hover{
   .block-text a:hover{
     font-family:"Oswald";
     position:absolute;
-    top:62%;
-    left:52%;
+    top:67%;
+    left:49%;
     background-color: black;
     color: #FBFF00;
     padding-left: 1%;
@@ -107,8 +107,8 @@ img:hover{
   .beatles-block a{
     font-family:"Oswald";
     position:absolute;
-    top:62%;
-    right:1.2%;
+    top:67%;
+    right:7%;
     padding-left: 1%;
     padding-right: 1%;
     background-color: black;
@@ -117,8 +117,8 @@ img:hover{
    .beatles-block a:hover{
      font-family:"Oswald";
      position:absolute;
-     top:62%;
-     right:1.2%;
+     top:67%;
+     right:7%;
      background-color: black;
      color: #FBFF00;
      padding-left: 1%;
